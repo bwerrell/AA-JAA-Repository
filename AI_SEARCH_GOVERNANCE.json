@@ -1,0 +1,78 @@
+﻿{
+  "policy_version": "1.0",
+  "default_search_rule": "deny_unless_permitted",
+  "policy_read_requirement": "must_be_read_before_search",
+  "policy_failure_rule": "deny_search",
+  "modification_rule": "authorized_maintainers_only",
+  "object_classes": {
+    "notes": {
+      "searchable": true,
+      "default_visibility": "shared",
+      "default_ai_interrogation_status": "allowed",
+      "default_query_scope": "full_text"
+    },
+    "reports": {
+      "searchable": true,
+      "default_visibility": "restricted",
+      "default_ai_interrogation_status": "limited",
+      "default_query_scope": "summary_only"
+    },
+    "atoms": {
+      "searchable": true,
+      "default_visibility": "shared",
+      "default_ai_interrogation_status": "allowed",
+      "default_query_scope": "full_text"
+    },
+    "transcripts": {
+      "searchable": true,
+      "default_visibility": "restricted",
+      "default_ai_interrogation_status": "limited",
+      "default_query_scope": "summary_only"
+    }
+  },
+  "role_permissions": {
+    "unauthorized_user": {
+      "may_read_policy": true,
+      "may_modify_policy": false,
+      "may_search_notes": false,
+      "may_search_reports": false,
+      "may_search_atoms": false,
+      "may_search_transcripts": false
+    },
+    "authorized_reader": {
+      "may_read_policy": true,
+      "may_modify_policy": false,
+      "may_search_notes": true,
+      "may_search_reports": true,
+      "may_search_atoms": true,
+      "may_search_transcripts": true
+    },
+    "maintainer": {
+      "may_read_policy": true,
+      "may_modify_policy": true,
+      "may_search_notes": true,
+      "may_search_reports": true,
+      "may_search_atoms": true,
+      "may_search_transcripts": true
+    }
+  },
+  "query_scopes": {
+    "metadata_only": {
+      "allow_full_text_access": false,
+      "allow_summary": false
+    },
+    "summary_only": {
+      "allow_full_text_access": false,
+      "allow_summary": true
+    },
+    "full_text": {
+      "allow_full_text_access": true,
+      "allow_summary": true
+    }
+  },
+  "output_rules": {
+    "allow_named_entity_extraction": false,
+    "allow_cross_document_synthesis": "limited",
+    "allow_direct_quotation": "governed"
+  }
+}

@@ -1,0 +1,9 @@
+﻿{
+    "receipt_id":  "JAA-RCPT-20260422-140007-GOV_ATOM_20260331_HAA_INVOCATION_WITHOUT_WITNESS_SET_v1",
+    "timestamp_sent":  "2026-04-22 14:00:06",
+    "object_class":  "atom",
+    "source_entry_id":  "local-atom-promotion",
+    "target_path":  "atoms/GOV_ATOM_20260331_HAA_INVOCATION_WITHOUT_WITNESS_SET_v1.md",
+    "send_result":  "placed",
+    "notes":  "Initial local promotion into AA/JAA active repository."
+}
