@@ -1,0 +1,17 @@
+{
+  "atom_id": "atom-000001",
+  "work_id": "TEST_WORK_001",
+  "origin_ref": "line_1",
+  "atom_type": "claim",
+  "category": "governance",
+  "tags": ["test"],
+  "atom_text": "This is a test atom derived from a governed work.",
+  "scope": ["test"],
+  "admissibility": "allowed",
+  "derivation_method": "manual_extraction",
+  "derivation_operator": "BWerrell",
+  "source_hash": "BC3956A0223C8C03D4D903AB3A856F2A96540E02E1740202744F0D328FDBA01C",
+  "atom_hash": "6DB3B01C7E1C251F4AA6EE8BB1868F591B1968D36B74643E22F33990E7B45C27",
+  "created_at": "2026-04-09T07:05:00",
+  "status": "active"
+}
