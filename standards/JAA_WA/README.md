@@ -8,6 +8,14 @@ This folder contains the current GitHub-seated operating-standard documents for 
 
 These documents provide the shared standard surface for users, administrators, and future AI-assisted work.
 
+## Start here
+
+New users should begin with:
+
+- standards/JAA_WA/02_JAA_PUBLIC_EXPORT/JAA_PUBLIC_USER_QUICKSTART.md
+
+This quickstart explains what JAA is, what the four commands mean, what to do first, what not to expect, and where the shared standards live.
+
 ## Current status
 
 The JAA / WA operating standards were seated on DAY74.
@@ -100,3 +108,4 @@ It does not by itself prove truth, publication fitness, legal sufficiency, or ca
 ## Maxim
 
 A standard is shared when a user can find the current surface without private explanation.
+
