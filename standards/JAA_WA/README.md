@@ -49,6 +49,7 @@ Contains the GitHub storage standard for JAA / WA operating documents.
 Key document:
 
 - JAA_WA_GITHUB_STANDARD.md
+- JAA_REQUEST_TRANSMISSION_STANDARD.md
 
 ### 01_JAA_NOTE_MEMORY_LOOP
 
