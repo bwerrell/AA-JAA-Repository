@@ -57,6 +57,7 @@ Contains the ordinary-user note-memory command contract.
 Key document:
 
 - NOTE_LOOP_COMMAND_CONTRACT.md
+- JAA_HELPER_DESIGN_REQUIREMENTS.md
 
 ### 02_JAA_PUBLIC_EXPORT
 
