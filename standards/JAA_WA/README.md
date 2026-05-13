@@ -120,3 +120,5 @@ It does not by itself prove truth, publication fitness, legal sufficiency, or ca
 
 A standard is shared when a user can find the current surface without private explanation.
 
+
+- 00_GOVERNANCE\DAY76_JAA_GOVERNANCE_TIGHTENING_ADDENDUM.md
